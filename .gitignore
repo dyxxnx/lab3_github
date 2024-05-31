@@ -1,0 +1,9 @@
+# OS generater files #
+################
+.DS_Store
+.DS_Store?
+._*
+.Spotligt-v100
+.Trashes
+ethumbs.db
+thumbs.db
