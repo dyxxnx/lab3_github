@@ -1,38 +1,67 @@
- /* General Body Styles */
-  body {
-      font-family: Arial, sans-serif;
-      line-height: 6;
-      margin: 0;
-      padding: 0;
-      background: #f4f4f4;
-      color: #333;
-  }
-  
- /* Header styling */
- header {
-     background: #0056b3;
-     color: #ffffff;
-     padding: 10px 20px;
-     text-align: center;
- }
-  
- /* Section styling */
- section {
-     margin: 20px;
-     padding: 20px;
-     background: white;
-     border-radius: 8px;
-     box-shadow: 0 0 10px 0 rgba(0,0,0,1);
- }
-  
- /* Headings within sections */
- h2 {
-     color: #333;
- }
-  
- /* Footer styling */
- footer {
-     text-align: center;
-     padding: 10px 20px;
-     background: #333;
-     color: 2  
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background: #0288d1;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Section styling */
+section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings within sections */
+h2 {
+    color: #333;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.profile-img:hover {
+    transform: scale(1.1);
+}
+
+/* Button styling */
+.contact-button {
+    background-color: #ffeb3b;
+    color: #0288d1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+.contact-button:hover {
+    background-color: #ff9800;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background: #01579b;
+    color: white;
+}
